@@ -10,7 +10,7 @@
     padding-left: 8%;
     padding-right: 8%;
     box-sizing: border-box;
-    overflow: hidden;
+
 }
 
 .flex{
@@ -22,6 +22,8 @@ nav  a{
     
     text-decoration: none;
     color: rgb(64, 63, 63);
+    font-weight:300;
+    
     
 }
 
@@ -61,13 +63,18 @@ flex: 1;
     overflow: hidden;
     height: 10vh;
     position: fixed;
+    background-color:white;
+    z-index: 100;
+    
+
     
   
 }
 
 
 .hero-img{
-    width: 20rem;
+    width: 470%;
+    padding-top: 5rem;
 }
 
 
@@ -79,7 +86,7 @@ h1{
     color: #212121;
     font-weight: 500;
     box-sizing: border-box;
-    overflow: hidden;
+    flex-wrap: nowrap;
 }
 
 p{
@@ -93,7 +100,108 @@ p{
 }
 
 .bhai{
-    gap: 9rem;
-    padding-bottom: 8rem;
+    gap: 3rem;
+    width: 80%;
+    position: relative;
+    bottom: 4rem;
 }
 
+
+.cta-btns{
+    justify-content: space-between;
+    margin-top: 2rem;
+    gap: 1.2rem;
+    position:absolute;
+}
+
+
+.color1{
+    
+    background-color: aquamarine;
+    padding-inline: 1.3rem;
+   border-radius: 3px;
+    padding-block: 0.5rem;
+    outline-style:solid;
+    outline-color: #2e6edf;
+    outline-width: 1px;
+    font-size: 16px;
+    background-color: #fff;
+}
+
+.cta-btns .color{
+    text-decoration: none;
+    color: #2e6edf;
+    
+        
+}
+
+
+
+
+
+.color2{
+    
+    padding-inline: 1.3rem;
+   border-radius: 3px;
+    padding-block: 0.5rem;
+    outline-style:solid;
+    outline-color: white;
+    outline-width: 1px;
+    font-size: 16px;
+    background-color:#2e6edf;
+}
+
+.diff{
+    text-decoration: none;
+    color: white;
+    
+}
+
+
+.color1:hover{
+    background-color: #f6f6f6;
+    transition: 0.2s ease-in-out;
+}
+
+.color2:hover{
+    background-color: #1d3a9a;
+    transition: 0.3s ease-in-out;
+}
+
+.wow{
+    position: relative;
+    top: 7rem;
+}
+
+.wow a{
+    text-decoration: none;
+}
+
+.left-col{
+    position: relative;
+}
+
+.companies{
+    width: 100%;
+    background-color: #f8f8f8;
+    height: 35vh;
+    box-sizing: border-box;
+    position: relative;
+    bottom: 6rem;
+    flex-direction: column;
+    gap: 19%;
+    align-items: center;
+    padding-top: 3rem;
+    position: relative;
+}
+
+.img-comp{
+    justify-content:center;
+    gap: 9%;
+}
+
+
+
+.about-comp{
+    font-weight: 500;
+}
