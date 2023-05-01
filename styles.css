@@ -4,8 +4,8 @@
     font-family: 'Poppins', sans-serif;
 }
 
-.nav{
-    width: 60%;
+nav{
+    width: 85%;
 }
 
 .flex{
@@ -37,7 +37,7 @@ nav ul li{
 
 
 .logo-container{
-    width:30%;
+    width:10%;
 }
 
 
@@ -187,27 +187,42 @@ p{
 .companies{
     width: 100%;
     background-color: #f8f8f8;
-    height: 35vh;
+    height: 45%;
     box-sizing: border-box;
-    top: 80%;
+    flex-direction: column;
+    margin-block: 3rem;
+    position: relative;
+    padding-block: 3rem;
+   
+    flex-wrap: wrap;
+}
+
+.arjun{
     flex-direction: column;
     gap: 2rem;
-    align-items: center;
-    padding-top: 3rem; 
-    margin-bottom: 33rem;
-    margin-block: 3rem;
-    
+   
+    flex-wrap: wrap;
 }
 
 .img-comp{
     justify-content:center;
     gap: 9%;
+    flex-wrap: wrap;
+    position: relative;
+    bottom: 0.1rem;
+    width: 80%;
+    
 }
 
+.join-comp{
+    justify-content: center;
 
+}
 
 .about-comp{
     font-weight: 500;
+ justify-content: center;
+ font-size: 2rem;
 }
 
 
@@ -237,4 +252,14 @@ p{
 
 .left-col p{
     width: 55%;
+}
+
+.wow a{
+    font-weight: 600;
+    color: #2e6edf;
+}
+
+.wow a:hover{
+    color:rgb(4, 126, 4);
+    transition: 0.1s ease-in-out;
 }
