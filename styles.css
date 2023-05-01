@@ -190,10 +190,10 @@ p{
     height: 45%;
     box-sizing: border-box;
     flex-direction: column;
-    margin-block: 3rem;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
     position: relative;
     padding-block: 3rem;
-   
     flex-wrap: wrap;
 }
 
@@ -262,4 +262,54 @@ p{
 .wow a:hover{
     color:rgb(4, 126, 4);
     transition: 0.1s ease-in-out;
+}
+
+.feature-left{
+    width: 50%;
+}
+
+
+.features{
+   height: 100%;
+   justify-content: center;
+   gap: 10%;
+   padding-block: 4rem;
+  
+}
+
+
+.features p{
+    font-weight: 300;
+    flex-wrap: wrap;
+
+}
+.fe{
+    position: relative;
+    top: 1.7rem;
+
+
+}
+
+.feature-2{
+    flex-direction: row-reverse;
+    background-color:#f8f8f8 ;
+}
+
+.feature-right{
+    width: 50%;
+}
+
+.feature-right h2{
+    font-weight: 500;
+}
+
+.feature-right .ckm{
+    font-weight: 600;
+    color: rgb(141, 140, 140);
+    font-size: 1rem;
+}
+
+
+.features img{
+    width: 100%;
 }
