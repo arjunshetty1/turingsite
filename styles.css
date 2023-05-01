@@ -59,7 +59,7 @@ nav ul li{
     box-shadow: 0 0 5px 0 rgba(0,0,0,.16);
     box-sizing: border-box;
     overflow: hidden;
-    height: 10vh;
+    height: 10%;
     position: fixed;
     background-color:white;
     z-index: 1;
