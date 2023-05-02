@@ -313,3 +313,40 @@ p{
 .features img{
     width: 100%;
 }
+
+
+
+.card1{
+    box-shadow: 0 2px 4px rgba(0,0,0,.08);
+    width: calc(25% - 7px);
+    padding-block: 6%;
+    padding-inline: 4%;
+    border-radius: 5%;
+    flex-wrap: wrap;
+}
+.card1 img{
+    width: 100%;
+}
+
+.fet{
+    flex-direction: column;
+    gap: 10px;
+    text-align: left;
+    margin-block: 4%;
+}
+
+.card1 h3{
+    font-weight: 500;
+    flex-wrap: wrap;
+}
+
+.card1 li{
+    position: relative;
+    right: 60%;
+    font-weight: 300;
+    
+}
+
+
+
+
