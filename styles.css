@@ -316,23 +316,13 @@ p{
 
 
 
-.card1{
-    box-shadow: 0 2px 4px rgba(0,0,0,.08);
-    width: calc(25% - 7px);
-    padding-block: 6%;
-    padding-inline: 4%;
-    border-radius: 5%;
-    flex-wrap: wrap;
-}
+
 .card1 img{
     width: 100%;
 }
 
 .fet{
     flex-direction: column;
-    gap: 10px;
-    text-align: left;
-    margin-block: 4%;
 }
 
 .card1 h3{
@@ -341,12 +331,176 @@ p{
 }
 
 .card1 li{
-    position: relative;
     right: 60%;
-    font-weight: 300;
+    font-weight: 400;
     
+}
+
+.card1 ul{
+    position: relative;
+    align-items: flex-start !important;
+    flex-direction: column;
+    
+    gap: 5px;
+    margin-block: 1rem;
+    flex-wrap: wrap;
+    
+}
+
+
+.card1{
+    box-shadow: 0 2px 4px rgba(0,0,0,.08);
+    width: calc(25% - 7px);
+    padding-block: 6%;
+    padding-inline: 2%;
+    border-radius: 5%;
+    flex-wrap: wrap;
+    max-height: 80%;
+}
+
+.card2{
+    box-shadow: 0 6px 10px rgba(200, 27, 27, 0.08);
+    width:calc(35% - 7px);
+    padding-block: 5.5%;
+    padding-inline: 2%;
+    border-radius: 5%;
+
+}
+
+.card2 ul li{
+    list-style: none;
+}
+
+.card2 ul{
+    flex-direction: column;
+    gap: 1rem;
+    position: relative;
+    bottom: 1rem;
+}
+
+.card2-points ul{
+    align-items: flex-start;
+}
+
+
+.card2 h3{
+    font-weight: 500;
+    flex-wrap: wrap;
+    margin-bottom: 3rem;
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+.rect .damn img{
+    width: 25px;
+    position: relative;
+    top: 0.29rem;
+}
+
+.card2 li{
+    font-weight: 400;
+}
+
+.card2 p{
+    color:white ;
+    font-weight: 500;
+}
+
+.card2 .cent{
+    justify-content: center;
+    background-color: #2e6edf;
+    padding-top: 0.4rem;
+    padding-bottom: 0.2rem;
+    position: relative;
+    top: 0.9rem;
+    padding-inline: 0rem;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+.card2 p img{
+    transform: rotate(267deg);
+    padding-bottom: 5%;
+    color: white;
+}
+
+span{
+    color: #2e6edf;
 }
 
 
 
 
+
+
+.card3 img{
+    width: 100%;
+}
+
+.fet{
+    flex-direction: column;
+}
+
+.card3 h3{
+    font-weight: 500;
+    flex-wrap: wrap;
+}
+
+.card3 li{
+    right: 60%;
+    font-weight: 400;
+    
+}
+
+.card3 ul{
+    position: relative;
+    align-items: flex-start !important;
+    flex-direction: column;
+    
+    gap: 5px;
+    margin-block: 1rem;
+    flex-wrap: wrap;
+    
+}
+
+
+.card3{
+    box-shadow: 0 2px 4px rgba(0,0,0,.08);
+    width: calc(25% - 7px);
+    padding-block: 2.9%;
+    padding-inline: 2%;
+    border-radius: 5%;
+    flex-wrap: wrap;
+    max-height: 80%;
+}
+
+
+.card3 li{
+    font-weight: 500;
+    position: relative;
+    left: 1rem;
+}
+
+
+.card3 p{
+position: relative;
+top: 0;
+padding-block: 0;
+left: 1.2rem;
+
+}
+
+.down{
+    margin-top: 2rem;
+}
+
+
+.card1 ul{
+    position: relative;
+    right: 4rem;
+}
+
+.man{
+    gap: 40px;
+}
