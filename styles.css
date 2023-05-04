@@ -62,7 +62,7 @@ nav ul li{
     height: 10%;
     position: fixed;
     background-color:white;
-    z-index: 1;
+    z-index: 3;
     
 
     
@@ -511,7 +511,7 @@ left: 1.2rem;
     height: 43%;
     background-color:#f8f8f8;
     padding-block: 1rem;
-    padding-bottom: 3rem;
+    padding-bottom: 5rem;
     margin-top: 2rem;
     
 }
@@ -583,4 +583,140 @@ left: 1.2rem;
 .xoxo h5{
     font-size: 1.1em;
     font-weight: 500;
+}
+
+
+
+.blue-occean{
+    padding-block: 5rem;
+    background:linear-gradient(90deg,#4e61c2,#3e85e2);
+    overflow-x: hidden;
+}
+
+
+.left-col-occean{
+    width: 45%;
+    z-index: 1;
+}
+
+.right-col-occean{
+    width: 30%;
+}
+
+
+.right-col-occean img{
+    position: relative;
+    right: 9rem;
+    width: 250%;
+}
+
+
+.left-col-occean-points{
+    flex-direction: column;
+    color: white;
+}
+
+.left-col-occean-points li{
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+
+
+ul .para{
+
+    font-size: 40px;
+
+}
+
+.numbers .flex{
+    gap: 3rem;
+    font-size:45px;
+    font-weight: 500;
+    flex-wrap: wrap;
+}
+
+sub{
+    font-size: 15px;
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    bottom: 2.9rem;
+}
+
+.om{
+   position: relative;
+   right: 3.7rem;
+   top: 1.5rem;
+}
+
+.won{
+    background-color: transparent;
+}
+
+
+.final-fet{
+    padding-block: 3rem;
+    margin-bottom: 3rem;
+}
+
+.final-fet-left-col{
+    width: 50%;
+}
+
+.final-fet-right-col{
+    width: 50%;
+}
+
+
+.final-fet-left-col img{
+    width: 90%;
+}
+
+.final-fet-right-col .idea{
+    flex-direction: column;
+}
+
+.idea ul{
+    list-style: none;
+}
+
+.final-fet-right-col ul{
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+.idea{
+    gap: 2.5rem;
+}
+
+.idea-points{
+    position: relative;
+    right:3.8rem;
+    flex-wrap: wrap;
+    
+}
+
+.hehe{
+    position: relative;
+    right: 13.4rem;
+    top: 2rem;
+}
+
+.idea-points{
+    flex-direction: column;
+    gap: 1.3rem;
+    align-items: flex-start;
+}
+
+
+.wtf{
+    gap: 1rem;
+}
+
+.wtf img{
+    position: relative;
+    font-weight: 400;
+    top: 0.6rem;
 }
