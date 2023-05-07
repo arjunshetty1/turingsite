@@ -54,7 +54,6 @@ nav ul li{
 .nav-points{
     width: 90%;
     justify-content: flex-end;
-    flex: 1;
 }
 .nav-points a{
     margin-right: 2rem;
@@ -120,14 +119,19 @@ p{
 .cta-btns{
     
     margin-top: 2rem;
-  gap: 6%;
-  min-width: 40%;
+    gap: 6%;
     top: 16.5rem;
    
     
 }
 
-
+.fix{
+    position: relative;
+    top: .1rem;
+    width: 100%;
+    flex-wrap: wrap;
+    flex-basis: 32%;
+}
 
   
 
@@ -135,7 +139,7 @@ p{
     
     background-color: aquamarine;
     padding-inline: 1.3rem;
-   border-radius: 3px;
+    border-radius: 3px;
     padding-block: 0.5rem;
     outline-style:solid;
     outline-color: #2e6edf;
@@ -153,12 +157,10 @@ p{
 
 
 
-
-
 .color2{
     
     padding-inline: 1.3rem;
-   border-radius: 3px;
+    border-radius: 3px;
     padding-block: 0.5rem;
     outline-style:solid;
     outline-color: white;
