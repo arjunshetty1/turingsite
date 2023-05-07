@@ -100,7 +100,7 @@ h1{
 }
 
 .companies{
-    width: 115%;
+    width: 100%;
     background-color: #f8f8f8;
     height: 45%;
     flex-direction: column;
