@@ -29,7 +29,7 @@ nav{
    
 }
 .hero-img{
-    width: 22rem;
+    width: 18rem;
     align-items: center;
     justify-content: center;
     margin-bottom: 3.5rem;   
@@ -55,8 +55,7 @@ h1{
     letter-spacing: normal;
     color: #212121;
     font-weight: 500;
-    flex-wrap: wrap;
-   
+    flex-wrap: wrap;  
 }
 
 
@@ -70,7 +69,7 @@ h1{
 .color1{
     
     background-color: aquamarine;
-    padding-inline: 2.5rem;
+    padding-inline: 4.5rem;
     border-radius: 3px;
     outline-style:solid;
     outline-color: #2e6edf;
@@ -82,7 +81,7 @@ h1{
 
 
 .kya{
-    padding-inline: 2.3rem;
+    padding-inline: 5.3rem;
     white-space: nowrap;
 }
 
@@ -117,11 +116,11 @@ h1{
 
 .img-comp{
     justify-content:center;
-    gap: 9%;
+    gap: 10%;
     position: relative;
-    right: 1.5rem;
+    right: .7rem;
     bottom: 0.1rem;
-    width: 85%;
+    width: 100%;
 }
 
 
@@ -166,6 +165,13 @@ h1{
 .feature-2{
     flex-direction:column;
     background-color:#f8f8f8 ;
+}
+
+
+.mini-features h1{
+    font-size: 1.15rem;
+    text-align: center;
+
 }
 
 .feature-right{
@@ -329,7 +335,8 @@ h1{
 
 
 .blue-occean{
-    padding-block: 5rem;
+    padding-top: 5rem;
+    padding-bottom: 0;
     background:linear-gradient(90deg,#4e61c2,#3e85e2);
     overflow-x: hidden;
 }
@@ -340,16 +347,6 @@ h1{
     z-index: 1;
 }
 
-.right-col-occean{
-    width: 30%;
-}
-
-
-/*.right-col-occean img{
-    position: relative;
-    right: 34rem;
-    width: 250%;
-}*/
 
 
 .left-col-occean-points{
@@ -362,19 +359,25 @@ h1{
     flex-wrap: wrap;
 }
 
+.numbers .flex.om{
+    gap: 3rem;
+    font-size:40px;
+    font-weight: 500;
+    margin-top: 3rem;
+    position:relative;
+    right: 0rem;
+}
 
+
+.numbers .flex .chi{
+    position: relative;
+    bottom: 4rem;
+}
 
 ul .para{
 
-    font-size: 40px;
+    font-size: 33px;
 
-}
-
-.numbers .flex{
-    gap: 3rem;
-    font-size:45px;
-    font-weight: 500;
-    flex-wrap:wrap;
 }
 
 sub{
@@ -386,17 +389,31 @@ sub{
     bottom: 2.9rem;
 }
 
-/*.om{
-   position: relative;
-   right: 3.7rem;
-   top: 1.5rem;
-}*/
 
-.numbers ul{
-    margin-top: 3rem;
-    position:relative;
-    right: 0rem;
+.wing1{
+    padding-inline:6rem;
+    font-size: 1rem;
+    white-space: nowrap;
+    position: relative;
+    bottom: 4.5rem;
+    
 }
+
+
+
+.right-col-occean{
+    width: 100%;
+}
+
+
+
+.right-col-occean img{
+    position: relative;
+    right: 25rem;
+    width: 30rem;
+    bottom: 20.5rem;
+}
+
 
 .won{
     background-color: transparent;
@@ -407,17 +424,108 @@ sub{
     flex-direction: column;
 }
 
-.wing1{
-    padding-inline:8rem;
-    font-size: 1rem;
+.card2 ul{
+    flex-direction: column;
+    gap: 1rem;
+    position: relative;
+    bottom: 1.3rem;
+}
+
+.card2 ul li.damn{
+    font-size: .9rem;
+}
+
+.card2 p.cent{
+    justify-content: center;
+    background-color: #2e6edf;
+    padding-top: 0.4rem;
+    padding-bottom: 0.2rem;
+    position: relative;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: .9rem;
     white-space: nowrap;
+    margin-bottom: 3rem;
+
+}
+
+
+
+.final-fet{
+    flex-direction: column;
+}
+
+.final-fet{
+    padding-block: 3rem;
+    margin-bottom: 3rem;
+}
+
+.final-fet-left-col{
+    width: 100%;
+}
+
+.final-fet-right-col{
+    width: 100%;
+}
+
+
+.final-fet-left-col img{
+    width: 80%;
+}
+
+.final-fet-right-col .idea{
+    flex-direction: column;
+    justify-content: center;
     
 }
 
-.wing2{
-    padding-inline:8rem;
-    font-size: 1rem;
-    white-space: nowrap;
+
+.idea li h1{
+font-size: 1.3rem;
+margin-top: 2rem;
+}
+.idea ul{
+    list-style: none;
 }
 
+.final-fet-right-col ul{
+    list-style: none;
+    flex-wrap: wrap;
+}
+.idea-points {
+    position: relative;
+    right:.5rem;
+    
+}
+
+
+.hehe{
+    position: relative;
+    left: .3rem;
+    white-space: nowrap;
+    padding-inline: 5rem;
+    flex-wrap: wrap;
+    display: block;
+    
+}
+
+.wewe .hi{
+    font-size: 1.5rem;
+    text-align: center;
+    align-items: center;
+}
+
+.wewe .hello{
+    font-size: 1rem;
+    text-align: center;
+}
+
+
+.ok{
+    display: block;
+    white-space: nowrap;
+    font-size: .8rem;
+    background-color: #2e6edf;
+    outline-style: none;
+}
 }

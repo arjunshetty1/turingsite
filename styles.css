@@ -384,6 +384,7 @@ p{
 
 .card2 ul li{
     list-style: none;
+    font-size: 1.14rem;
 }
 
 .card2 ul{
@@ -391,6 +392,7 @@ p{
     gap: 1rem;
     position: relative;
     bottom: 1rem;
+    font-size: 9rem;
 }
 
 .card2-points ul{
@@ -424,13 +426,13 @@ p{
 .card2 .cent{
     justify-content: center;
     background-color: #2e6edf;
-    padding-top: 0.4rem;
-    padding-bottom: 0.2rem;
+   padding-block: .5rem;
     position: relative;
-    top: 0.9rem;
+    top: 2rem;
     padding-inline: 0rem;
     border-radius: 4px;
     cursor: pointer;
+    margin-bottom: 2rem;
 
 }
 
@@ -649,6 +651,9 @@ ul .para{
     font-size:45px;
     font-weight: 500;
     flex-wrap:wrap;
+    margin-top: 3rem;
+    position:relative;
+    right: 4rem;
 }
 
 sub{
@@ -666,12 +671,7 @@ sub{
    top: 1.5rem;
 }*/
 
-.numbers ul{
-    margin-top: 3rem;
-    position:relative;
-    right: 4rem;
-   
-}
+
 .won{
     background-color: transparent;
 }
