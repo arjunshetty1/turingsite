@@ -16,7 +16,9 @@
 }
 
 
-
+.nav-toggle{
+    display: none;
+}
 
 /* NavBar*/
 
@@ -235,10 +237,17 @@ p{
  font-size: 2rem;
 }
 
+
+.nav-points li a{
+    white-space: nowrap;
+}
+
+
 .container{
     width: 100%;
     padding-left: 8%;
     padding-right: 8%;
+    box-sizing: border-box;
     position: relative;
 
 }
@@ -251,7 +260,9 @@ p{
 
 
 .left-col{
-    width: 60%;
+    box-sizing: border-box;
+    max-width: 60%;
+    flex: 1;
 }
 
 .left-col p{
@@ -949,9 +960,4 @@ footer a:hover{
 .footer-headings-sub{
     padding-top: 1rem;
     height: 230px;
-}
-
-
-.nav-toggle{
-    display: none;
 }
