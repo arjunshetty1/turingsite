@@ -255,10 +255,17 @@ p{
 
 .bhai{
     padding-top:7.5rem;
-    max-width: 100%;
+    width: 100%;
 }
 
 
+.extra{
+    display: none;
+}
+
+.extra1{
+    display: none;
+}
 .left-col{
     box-sizing: border-box;
     max-width: 60%;

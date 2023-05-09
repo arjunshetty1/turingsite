@@ -18,6 +18,8 @@ nav{
 
 .bhai{
     flex-direction: column-reverse;
+    width: 100%;
+    
 }
 
 .flex{
@@ -36,16 +38,18 @@ nav{
 }
 
 
-.bhai .left-col{
+.left-col{
 width: 100%;
 flex: none;
-align-items: flex-start !important;
+max-width: 100%;
+
 }
 
 .left-col p{
     font-size: 1rem;
     width: 100%;
     text-align: left;
+    
     
 }
 
@@ -71,7 +75,7 @@ h1{
 .color1{
     
     background-color: aquamarine;
-    padding-inline: 4.5rem;
+    padding-inline: 6.5rem;
     border-radius: 3px;
     outline-style:solid;
     outline-color: #2e6edf;
@@ -83,7 +87,7 @@ h1{
 
 
 .kya{
-    padding-inline: 5.3rem;
+    padding-inline: 7.3rem;
     white-space: nowrap;
 }
 
